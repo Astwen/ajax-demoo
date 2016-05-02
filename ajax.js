@@ -20,3 +20,7 @@ request.onreadystatechange = function() {
  document.write(data);
  
  }
+}
+
+request.open('GET', 'http://mardby.se/AJK15G/lorem_text.php');
+request.send();
